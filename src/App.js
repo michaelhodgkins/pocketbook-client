@@ -1,8 +1,23 @@
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Error } from "./pages/Error";
+import { Landing } from "./pages/Landing";
+import { Signup } from "./pages/Signup";
+import { Login } from "./pages/Login";
+import { Profile } from "./pages/Profile";
+import { Creation } from "./pages/Creation";
+
 function App() {
   return (
-    <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-      <p className="text-3xl text-gray-700 font-bold mb-5">Website is running!</p>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<Error />} />
+      <Route path="/landing" element={<Landing />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/creation" element={<Creation />} />
+    </Routes>
   );
 }
 
