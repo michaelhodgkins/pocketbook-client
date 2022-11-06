@@ -9,6 +9,9 @@ import { Creation } from "./pages/Creation";
 
 function App() {
   return (
+    /**
+     * All routes between each page 
+     */
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="*" element={<Error />} />
