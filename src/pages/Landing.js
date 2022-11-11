@@ -9,12 +9,12 @@ export const Landing = () => {
         </div>
     </header>
     <main>
-        <div className='mx-auto max-w-7xl py-2'>
+        <div className='mx-auto max-w-8xl py-2'>
             <div className='bg-gray-300 px-2 py-2'>
             <div className="h-96 rounded-lg border-4 border-dashed border-gray-200" />
             </div>
         </div>
-        <div className= 'mx-auto max-w-7xl py-2'>
+        <div className= 'mx-auto max-w-8xl py-2'>
         <div className='bg-gray-300 px-2 py-2'>
             <div className="h-96 rounded-lg border-4 border-dashed border-gray-200" />
             </div>
