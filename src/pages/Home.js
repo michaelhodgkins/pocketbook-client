@@ -1,9 +1,14 @@
 import React from 'react'
+import SideBar from '../components/SideBar'
+
 
 export const Home = () => {
   return (
-    <div>
+    <>
+    <SideBar />
+    <div className='mx-auto max-w-6xl py-2 px-2 text-center'>
     <p> Welcome to the Homepage</p>
     </div>
+    </>
   )
 }
