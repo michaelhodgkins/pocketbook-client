@@ -1,7 +1,9 @@
 import React from "react";
-
+import { ArrowsPointingInIcon } from '@heroicons/react/24/solid'
 const SideBar = () => {
   return (
+    <>
+    <button className='bg-black fixed z-10 right-0'><ArrowsPointingInIcon className='h-6 w-6 text-green-600'/></button>
     <div className="fixed right-0 h-screen">
       <header className="text-white w-64 text-center overscroll-auto">
         <h1 className="bg-gray-800">Friends List</h1>
@@ -64,6 +66,7 @@ const SideBar = () => {
           <p className="text-white text-sm bg-black">Friend 4</p>
       </div>
     </div>
+    </>
   );
 };
 
