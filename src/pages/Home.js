@@ -7,7 +7,7 @@ export const Home = () => {
     <>
     <SideBar />
     <div className='mx-auto max-w-6xl py-2 px-2 text-center'>
-    <p> Welcome to the Homepage</p>
+    <h1> Social Homepage</h1>
     </div>
     </>
   )

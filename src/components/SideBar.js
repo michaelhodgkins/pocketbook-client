@@ -1,17 +1,70 @@
-import React from 'react'
+import React from "react";
 
 const SideBar = () => {
   return (
-    <div className='fixed right-0 h-screen'>
-      <div className="bg-gray-700 text-white w-64 h-1/3 text-center">
-        Friends List
+    <div className="fixed right-0 h-screen">
+      <header className="text-white w-64 text-center overscroll-auto">
+        <h1 className="bg-gray-800">Friends List</h1>
+      </header>
+      <div className="bg-gray-400 text-white w-64 h-1/3 text-center relative overflow-auto">
+        <div className="">
+          <button className="bg-orange-600 rounded-full w-14 h-14">
+            Picture
+          </button>
+          <p className="text-white text-sm bg-black">Friend 1</p>
+          <button className="bg-orange-600 rounded-full w-14 h-14">
+            Picture
+          </button>
+          <p className="text-white text-sm bg-black">Friend 2</p>
+          <button className="bg-orange-600 rounded-full w-14 h-14">
+            Picture
+          </button>
+          <p className="text-white text-sm bg-black">Friend 3</p>
+          <button className="bg-orange-600 rounded-full w-14 h-14">
+            Picture
+          </button>
+          <p className="text-white text-sm bg-black">Friend 4</p>
+        </div>
       </div>
-      <div className="bg-green-700 text-white w-64 h-1/3 text-center"> Recent Activity
+      <header className="text-white w-64 text-center">
+        <h1 className="bg-gray-800">Recent Activity</h1>
+      </header>
+      <div className="bg-green-700 text-white w-64 h-1/3 text-center relative overflow-auto">
+        <main className="">
+          <article> Friend 1 is 50% way through a new book by author</article>
+          <article>
+            Friend 2 has just started a co op read with another friend
+          </article>
+          <article>
+            Friend 3 has left a 5* review on a new book they just finished
+            recently
+          </article>
+          {/** Test to add scroll bar */}
+          <article>
+            Friend 1 has left a 5* review on a new book they just finished
+            recently
+          </article>
+          <article>
+            Friend 2 has left a 5* review on a new book they just finished
+            recently
+          </article>
+        </main>
       </div>
-      <div className="bg-purple-700 text-white w-64 h-1/3 text-center"> Friend Suggestion
+      <header className="text-white w-64 text-center">
+        <h1 className="bg-gray-800">Friends Suggestion</h1>
+      </header>
+      <div className="bg-purple-700 text-white w-64 h-1/3 text-center relative">
+        <br />
+          <p className="text-white text-sm bg-black">Friend 1</p>
+          <br />
+          <p className="text-white text-sm bg-black">Friend 2</p>
+          <br />
+          <p className="text-white text-sm bg-black">Friend 3</p>
+          <br />
+          <p className="text-white text-sm bg-black">Friend 4</p>
       </div>
     </div>
   );
-}
+};
 
-export default SideBar
+export default SideBar;
