@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .spacing {
-    @apply ml-20;
+    @apply ml-16;
 }
 
 .format {
@@ -12,4 +12,8 @@
 
 .form-label {
     @apply block text-gray-600
+}
+
+.box-model {
+    @apply h-96 border border border-blue-300 w-1/6 bg-black
 }
