@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.spacing {
+    @apply ml-20;
+}
+
+.format {
+    @apply mt-5 border max-w-7xl flex justify-center text-center;
+}
+
+.form-label {
+    @apply block text-gray-600
+}

@@ -2,7 +2,7 @@ import React from "react";
 export const Landing = () => {
   return (
     <>
-      <div className="ml-20">
+      <div className="spacing">
         <header className="bg-white-300 shadow w-full">
           <div className="max-w-7xl py-2 px-2 text-center">
             <h1 className="text-2xl text-black-700">PocketBook</h1>

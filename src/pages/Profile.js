@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Profile = () => {
   return (
-    <div className='ml-20'>
+    <div className='spacing'>
     <p> Profile </p>
     </div>
   )

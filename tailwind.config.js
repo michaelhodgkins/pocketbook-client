@@ -1,3 +1,5 @@
+const { getSuggestedQuery } = require('@testing-library/react')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,3 +10,4 @@ module.exports = {
   },
   plugins: [],
 }
+
