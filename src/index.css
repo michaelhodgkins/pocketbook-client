@@ -7,7 +7,7 @@
 }
 
 .format {
-    @apply mt-5 border max-w-7xl flex justify-center text-center;
+    @apply mt-5  w-1/2 h-1/2 text-center;
 }
 
 .form-label {
@@ -16,4 +16,12 @@
 
 .box-model {
     @apply h-96 border border border-blue-300 w-1/6 bg-black
+}
+
+.form {
+    @apply bg-white shadow-md w-3/4 border-2 h-3/4 pt-12 drop-shadow-md
+}
+
+.form-position {
+    @apply flex justify-center items-center h-screen pl-60
 }

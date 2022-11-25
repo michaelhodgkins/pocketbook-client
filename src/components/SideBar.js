@@ -9,23 +9,22 @@ const SideBar = () => {
         <h1 className="bg-gray-800">Friends List</h1>
       </header>
       <div className="bg-gray-400 text-white w-64 h-1/3 text-center relative overflow-auto">
-        <div className="">
-          <button className="bg-orange-600 rounded-full w-14 h-14">
-            Picture
+        <div className="flex-col px-2 py-2 border">
+          <button className="flex bg-orange-600 rounded-full w-14 h-14"><p className="">Name of friend</p>
           </button>
-          <p className="text-white text-sm bg-black">Friend 1</p>
-          <button className="bg-orange-600 rounded-full w-14 h-14">
-            Picture
+          <br />
+          <button className="flex bg-orange-600 rounded-full w-14 h-14">
           </button>
-          <p className="text-white text-sm bg-black">Friend 2</p>
-          <button className="bg-orange-600 rounded-full w-14 h-14">
-            Picture
+          <br />
+          <button className="flex bg-orange-600 rounded-full w-14 h-14">
           </button>
-          <p className="text-white text-sm bg-black">Friend 3</p>
-          <button className="bg-orange-600 rounded-full w-14 h-14">
-            Picture
+          <br />
+          <button className="flex bg-orange-600 rounded-full w-14 h-14">
           </button>
-          <p className="text-white text-sm bg-black">Friend 4</p>
+          <br />
+          <button className="flex bg-orange-600 rounded-full w-14 h-14">
+          </button>
+          
         </div>
       </div>
       <header className="text-white w-64 text-center">

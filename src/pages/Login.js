@@ -2,8 +2,9 @@ import React from 'react'
 
 export const Login = () => {
   return (
+    <div className='form-position'>
     <div className='spacing format'>
-    <form className='bg-white shadow-md w-1/2 flex-col border'>
+    <form className='form'>
         <br />
     <label className='form-label text-md'>Email</label>
         <input type="email" placeholder="Please enter username" className='border w-1/2'></input>
@@ -15,6 +16,7 @@ export const Login = () => {
         <button className='bg-grey-400 border w-20 hover:bg-green-200'> Reset</button>
     </div>
     </form>
+    </div>
     </div>
   )
 }
