@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const Login = () => {
   return (
-    <div className='form-position'>
+    <div className='form-position bg-blue-600'>
     <div className='spacing format'>
     <form className='form'>
         <br />

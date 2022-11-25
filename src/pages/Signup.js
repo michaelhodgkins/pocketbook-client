@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const Signup = () => {
   return (
-      <div className='form-position'>
+      <div className='form-position bg-purple-600'>
     <div className='spacing format'>
     <form className='form'>
     <label className='form-label text-md'>First Name</label>

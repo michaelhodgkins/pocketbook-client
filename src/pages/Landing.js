@@ -2,7 +2,7 @@ import React from "react";
 export const Landing = () => {
   return (
     <>
-      <div className="spacing bg-yellow-200">
+      <div className="spacing bg-green-600">
         <header className="bg-white-300 shadow w-screen ">
           <div className="py-2 px-2 ">
             <h1 className="text-3xl text-black-700">PocketBook</h1>

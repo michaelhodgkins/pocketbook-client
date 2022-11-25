@@ -2,8 +2,8 @@ import React from "react";
 
 const Create = () => {
   return (
-    <div className="mt-5 border max-w-7xl flex justify-center text-center ">
-      <form className="bg-white shadow-md w-1/2 flex-col border py-4">
+    <div className=" w-1/2 flex justify-center text-center ">
+      <form className=" mt-2 bg-white shadow-md w-1/2 flex-col border py-4">
         <label className="block text-gray-600 text-md">Name of Book</label>
         <input type="text" placeholder="" className="border w-1/2"></input>
         <label className="block text-gray-600 text-md">Author/s</label>
