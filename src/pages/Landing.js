@@ -1,8 +1,14 @@
 import React from "react";
+import { ImBook } from "react-icons/im";
+import { ImCalendar } from "react-icons/im";
+import { ImStatsDots} from "react-icons/im";
+import { ImUser } from "react-icons/im"
+import { ImBubbles3 } from "react-icons/im"
+
 export const Landing = () => {
   return (
     <>
-      <div className="spacing bg-green-600">
+      <div className="spacing bg-green-600 h-screen">
         <header className="bg-white-300 shadow w-screen ">
           <div className="py-2 px-2 ">
             <h1 className="text-3xl text-black-700">PocketBook</h1>
@@ -18,20 +24,25 @@ export const Landing = () => {
         </div>
         <div className="flex justify-center">
           <div className="py-2 flex justify-around w-full ">
-            <div className="box-model grid">
-            <p className="text-white text-xl justify-self-center">This will be the first feature</p>
+            <div className="box-model grid items-center">
+            <p className="text-white text-xl justify-self-center">Store all your books in one place</p>
+            <ImBook className="text-white w-1/2 h-1/2 justify-self-center" />
             </div>
-            <div className="box-model flex items-center">
-              <p className="text-white">This will be the second feature</p>
+            <div className="box-model grid items-center">
+              <p className="text-white text-xl justify-self-center">Keep track of your reading habits</p>
+              <ImCalendar className="text-white w-1/2 h-1/2 justify-self-center" />
             </div>
-            <div className="box-model">
-              <p className="text-white">This will be the third feature</p>
+            <div className="box-model grid items-center">
+              <p className="text-white text-xl justify-self-center">See statistics about your reading</p>
+              <ImStatsDots className="text-white w-1/2 h-1/2 justify-self-center" />
             </div>
-            <div className="box-model">
-              <p className="text-white">This will be the fourth feature</p>
+            <div className="box-model grid items-center">
+              <p className="text-white text-xl justify-self-center">Have your own profile to customise</p>
+              <ImUser className="text-white w-1/2 h-1/2 justify-self-center" />
             </div>
-            <div className="box-model">
-              <p className="text-white">This will be the fifth feature</p>
+            <div className="box-model grid items-center">
+              <p className="text-white text-xl justify-self-center">Chat with friends!</p>
+              <ImBubbles3 className="text-white w-1/2 h-1/2 justify-self-center" />
             </div>
           </div>
         </div>
