@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export const Signup = () => {
   return (
-      <div className='form-position bg-purple-600'>
-    <div className='spacing format'>
+    <div className='form-position bg-purple-600'>
+    <div className='spacing format h-fit'>
     <form className='form'>
     <label className='form-label text-md'>First Name</label>
         <input type="text" placeholder="Please enter your first name" className='border w-1/2'></input>

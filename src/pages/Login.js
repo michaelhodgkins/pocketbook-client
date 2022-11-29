@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export const Login = () => {
   return (
-    <div className='form-position bg-blue-600'>
-    <div className='spacing format'>
+    <div className='form-position bg-blue-400'>
+    <div className='spacing format h-fit'>
     <form className='form'>
         <br />
     <label className='form-label text-md'>Email</label>

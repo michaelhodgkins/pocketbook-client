@@ -7,7 +7,7 @@
 }
 
 .format {
-    @apply mt-5  w-1/2 h-1/2 text-center;
+    @apply mt-5 w-1/2 text-center;
 }
 
 .form-label {
